@@ -6,22 +6,6 @@
 
 using namespace std;
 
-/**
- * Programa Sequencial - Multiplicação de Matrizes
- * 
- * Este programa realiza a multiplicação de duas matrizes de forma sequencial,
- * carregando as matrizes de arquivos e salvando o resultado.
- * 
- * Uso: ./multiplicacao_sequencial <dimensao>
- * 
- * Entrada: 
- * - matriz_a_<dimensao>.txt
- * - matriz_b_<dimensao>.txt
- * 
- * Saída:
- * - resultado_sequencial_<dimensao>.txt
- */
-
 class Matriz {
 private:
     vector<vector<double>> dados;

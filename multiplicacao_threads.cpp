@@ -8,23 +8,6 @@
 
 using namespace std;
 
-/**
- * Programa Paralelo com Threads - Multiplicação de Matrizes
- * 
- * Este programa realiza a multiplicação de duas matrizes usando threads,
- * onde cada thread é responsável por calcular uma parte das linhas
- * da matriz resultado.
- * 
- * Uso: ./multiplicacao_threads <dimensao> <num_threads>
- * 
- * Entrada: 
- * - matriz_a_<dimensao>.txt
- * - matriz_b_<dimensao>.txt
- * 
- * Saída:
- * - resultado_threads_<dimensao>_<num_threads>.txt
- */
-
 class MatrizThreads {
 private:
     vector<vector<double>> dados;
